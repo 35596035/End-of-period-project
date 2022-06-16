@@ -1,16 +1,16 @@
-1.註冊作業
+V1.註冊作業
 onWeb()
 onSingUpClick()
     inputformat(email,username,birth,notice,passwd)
 SpotifySignUpClick()
 Show()
-2.登入作業
+V2.登入作業
 onWeb()
 onSignInClick()
 	SignIninput(email,username,passwd)
 SpotifySignInClick()
 	Show()
-3.個人資料作業
+V3.個人資料作業
 SpotifySignInClick()
 UserClick()
 	ShowUser(user,userinformation,logout,premium)
@@ -24,7 +24,7 @@ RevisePageClick()
 	OnlinePage(E_musictype,E_radiotype,homepage,searchpage)
 SavePageClick()
 	Show()
-5.會員作業
+V5.會員作業
 SpotifySignInClick()
 UserClick()
 	ShowUser(user,userinformation,logout,premium)
@@ -32,7 +32,7 @@ premiumClick()
     paypage()
 confirmpayClick()
     Showsuccesspay()
-6.會員權限作業
+V6.會員權限作業
 SpotifySignInClick()
     VerifyMember()
     ShowMemberpage()
@@ -67,7 +67,7 @@ MusicLikeClick()
 MusicmenuClick()
     addmenu(menu)
     deletmenu(menu)
-9.首頁功能
+V9.首頁功能
 onWeb()
 HomePageClick()
     homefunction(hotmusic,lastplay,artist,recommendtype)
@@ -86,7 +86,7 @@ SearchPageClick()
 RadioPageClick()
 RadioClick()
     Show()
-12.金流流程
+V12.金流流程
 onWeb
 #select1
 SpotifySignInClick()
