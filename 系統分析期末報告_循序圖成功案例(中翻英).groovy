@@ -1,0 +1,104 @@
+1.註冊作業
+onWeb()
+onSingUpClick()
+    inputformat(email,username,birth,notice,passwd)
+SpotifySignUpClick()
+Show()
+2.登入作業
+onWeb()
+onSignInClick()
+	SignIninput(email,username,passwd)
+SpotifySignInClick()
+	Show()
+3.個人資料作業
+SpotifySignInClick()
+UserClick()
+	ShowUser(user,userinformation,logout,premium)
+UserinformationClick()
+	reviseinformation(mail,gender,place,country)
+SaveInformationClick()
+4.系統人員編輯作業
+SystemSignInClick()
+	ShowSystemPage(editpage,permission)
+RevisePageClick()
+	OnlinePage(E_musictype,E_radiotype,homepage,searchpage)
+SavePageClick()
+	Show()
+5.會員作業
+SpotifySignInClick()
+UserClick()
+	ShowUser(user,userinformation,logout,premium)
+premiumClick()
+    paypage()
+confirmpayClick()
+    Showsuccesspay()
+6.會員權限作業
+SpotifySignInClick()
+    VerifyMember()
+    ShowMemberpage()
+#select1
+MemberMusicClick()
+MusicDownloadClick()
+    DownloadMusic()
+#select2
+UserClick()
+    ShowMember(member,mamberinformation,logout,premium,cancel)
+MemberCancelClick()
+    Systemnotice()
+CancelClick()
+    memberpage()
+7.音樂功能
+SpotifySignInClick()
+MusicClick()
+MusicFunctionClick()
+    musicplay()
+    musicstop()
+    musictoggle()
+    musicrandom()
+    musiccycle()
+    show()
+8.音樂收藏功能
+SpotifySignInClick()
+#select1
+MusicLikeClick()
+    addlike(music)
+    deletlike(music)
+#select2
+MusicmenuClick()
+    addmenu(menu)
+    deletmenu(menu)
+9.首頁功能
+onWeb()
+HomePageClick()
+    homefunction(hotmusic,lastplay,artist,recommendtype)
+    Show()
+10.搜尋功能
+onWeb()
+SearchPageClick()
+    searchfunction(searchinput,seemusictype)
+SearchClick()
+    searchresult()
+    show()
+11.電台功能()
+SpotifySignInClick
+SearchPageClick()
+    searchfunction(searchinput,seemusictype)
+RadioPageClick()
+RadioClick()
+    Show()
+12.金流流程
+onWeb
+#select1
+SpotifySignInClick()
+UserPayClick()
+    pay()
+#select2
+SystemSignInClick()
+    Fee()
+13.帳號權限管理
+SystemSignInClick()
+    ShowSystemPage(editpage,permission)
+PermissionPageClick()
+    permission_revise(customer,member)
+SavePermissonClick()
+    Show()
